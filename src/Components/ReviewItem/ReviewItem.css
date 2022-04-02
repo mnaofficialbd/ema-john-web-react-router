@@ -8,14 +8,19 @@ display: flex;
 }
 .review-item img{
     width: 91px;
+    border-radius: 8px;
 }
 .review-item-details p{
 margin: 0px;
 }
 .review-item-details-container{
+    margin-left: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+.orange-color{
+    color: rgb(206, 175, 0);
 }
 .review-item .delete-container{
     display: flex;
@@ -28,6 +33,7 @@ margin: 0px;
     width: 55px;
     border-radius: 50%;
     cursor: pointer;
+    margin-right: 10px;
 }
 .delete-icon{
     color: rgba(235, 87, 87, 1);
